@@ -8,7 +8,7 @@ A Kubernetes cluster on your Mac, built with kubeadm on Ubuntu 24.04 VMs.
 | knode1 | worker | 192.168.100.11 | 192.168.56.11 | 2 | 2 GB |
 | knode2 | worker | 192.168.100.12 | 192.168.56.12 | 2 | 2 GB |
 
-Kubernetes 1.37 with containerd and Flannel. Pods get IPs in 10.244.0.0/16 and Services in 10.96.0.0/12. The nodes talk to each other on 192.168.100.x, a VirtualBox internal network that your Mac and your VPN never see.
+Kubernetes 1.37 with containerd and Flannel. Pods get IPs in 10.244.0.0/16 and Services in 10.96.0.0/12.
 
 ## 1. Check your Mac
 
