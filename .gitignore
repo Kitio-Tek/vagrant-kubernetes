@@ -1,0 +1,4 @@
+.vagrant/
+kubeconfig
+join.sh
+certs/*.crt
